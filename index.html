@@ -4,7 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Calculadora Apple</title>
+    <title>Calculadora Apple - JlFerrete</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Calculadora</h1>
+
+    <div class="calculator">
+      <input
+        class="calculator__screen"
+        type="text"
+        value="0"
+        placeholder=""
+        disabled
+      />
+      <div class="claculator__keypad">
+        <button onclick="getCntentClick(event)" class="btn btn-dark">AC</button>
+        <button onclick="getCntentClick(event)" class="btn btn-dark">
+          +/-
+        </button>
+        <button onclick="getCntentClick(event)" class="btn btn-dark">%</button>
+        <button onclick="getCntentClick(event)" class="btn btn-orange">
+          /
+        </button>
+
+        <button onclick="getCntentClick(event)" class="btn">7</button>
+        <button onclick="getCntentClick(event)" class="btn">8</button>
+        <button onclick="getCntentClick(event)" class="btn">9</button>
+        <button onclick="getCntentClick(event)" class="btn btn-orange">
+          X
+        </button>
+
+        <button onclick="getCntentClick(event)" class="btn">4</button>
+        <button onclick="getCntentClick(event)" class="btn">5</button>
+        <button onclick="getCntentClick(event)" class="btn">6</button>
+        <button onclick="getCntentClick(event)" class="btn btn-orange">
+          -
+        </button>
+
+        <button onclick="getCntentClick(event)" class="btn">1</button>
+        <button onclick="getCntentClick(event)" class="btn">2</button>
+        <button onclick="getCntentClick(event)" class="btn">3</button>
+        <button onclick="getCntentClick(event)" class="btn btn-orange">
+          +
+        </button>
+
+        <button onclick="getCntentClick(event)" class="btn">0</button>
+        <button onclick="getCntentClick(event)" class="btn">,</button>
+        <button onclick="getCntentClick(event)" class="btn btn-orange">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
