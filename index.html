@@ -2,58 +2,44 @@
 <html lang="es">
 
 <head>
-  <title>Calculadora Apple - JlFerrete</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="./scripts.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Calculadora Apple - JlFerrete</title>
+	<link rel="stylesheet" href="style.css" />
+	<script src="./scripts.js"></script>
 </head>
 
 <body>
-  <h1>Calculadora</h1>
+	<h1>Calculadora</h1>
+	<div class="calculator">
+		<input class="calculator__screen" type="text" value="0" placeholder="" disabled />
+		<div class="calculator__keypad">
+			<button onclick="getContentClick(event)" class="btn btn-dark">AC</button>
+			<button onclick="getContentClick(event)" class="btn btn-dark">+/-</button>
+			<button onclick="getContentClick(event)" class="btn btn-dark">%</button>
+			<button onclick="getContentClick(event)" class="btn btn-orange">/</button>
 
-  <div class="calculator">
-    <input class="calculator__screen" type="text" value="5" placeholder="" disabled />
-    <div class="claculator__keypad">
-      <button onclick="getContentClick(event)" class="btn btn-dark">
-        AC
-      </button>
-      <button onclick="getContentClick(event)" class="btn btn-dark">
-        +/-
-      </button>
-      <button onclick="getContentClick(event)" class="btn btn-dark">%</button>
-      <button onclick="getContentClick(event)" class="btn btn-orange">
-        /
-      </button>
+			<button onclick="getContentClick(event)" class="btn">7</button>
+			<button onclick="getContentClick(event)" class="btn">8</button>
+			<button onclick="getContentClick(event)" class="btn">9</button>
+			<button onclick="getContentClick(event)" class="btn btn-orange">X</button>
 
-      <button onclick="getContentClick(event)" class="btn">7</button>
-      <button onclick="getContentClick(event)" class="btn">8</button>
-      <button onclick="getContentClick(event)" class="btn">9</button>
-      <button onclick="getContentClick(event)" class="btn btn-orange">
-        X
-      </button>
+			<button onclick="getContentClick(event)" class="btn">4</button>
+			<button onclick="getContentClick(event)" class="btn">5</button>
+			<button onclick="getContentClick(event)" class="btn">6</button>
+			<button onclick="getContentClick(event)" class="btn btn-orange">-</button>
 
-      <button onclick="getContentClick(event)" class="btn">4</button>
-      <button onclick="getContentClick(event)" class="btn">5</button>
-      <button onclick="getContentClick(event)" class="btn">6</button>
-      <button onclick="getContentClick(event)" class="btn btn-orange">
-        -
-      </button>
+			<button onclick="getContentClick(event)" class="btn">1</button>
+			<button onclick="getContentClick(event)" class="btn">2</button>
+			<button onclick="getContentClick(event)" class="btn">3</button>
+			<button onclick="getContentClick(event)" class="btn btn-orange">+</button>
 
-      <button onclick="getContentClick(event)" class="btn">1</button>
-      <button onclick="getContentClick(event)" class="btn">2</button>
-      <button onclick="getContentClick(event)" class="btn">3</button>
-      <button onclick="getContentClick(event)" class="btn btn-orange">
-        +
-      </button>
-
-      <button onclick="getContentClick(event)" class="btn btn-double">
-        0
-      </button>
-      <button onclick="getContentClick(event)" class="btn">,</button>
-      <button onclick="getContentClick(event)" class="btn btn-orange">
-        =
-      </button>
-    </div>
-  </div>
+			<button onclick="getContentClick(event)" class="btn btn-double">0</button>
+			<button onclick="getContentClick(event)" class="btn">,</button>
+			<button onclick="getContentClick(event)" class="btn btn-orange">=</button>
+		</div>
+	</div>
 </body>
 
 </html>
